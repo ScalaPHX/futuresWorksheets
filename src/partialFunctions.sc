@@ -1,6 +1,6 @@
 def increment(i : Int) = i + 1
 
-//increment(2)
+increment(2)
 
 def divide(i : Int) = 42 / i
 

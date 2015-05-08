@@ -14,7 +14,7 @@ val f = Future {
   increment(2)
 }
 
-Await.result(f, 501 millis)   // VERY bad - don't use this unless you need to!
+Await.result(f, 2000 millis)   // VERY bad - don't use this unless you need to!
 
 // callbacks available, but they require a PartialFunction (what's that??)
 

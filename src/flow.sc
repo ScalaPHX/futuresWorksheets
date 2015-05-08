@@ -10,8 +10,6 @@ def divide(i : Int) : Future[Either[String, Int]] = Future {
 
 divide(2).map(println(_))
 
-divide(0).map(println(_))
-
 // how to fallback to another async calculation
 val f1 = Future {
   Thread.sleep(500)
